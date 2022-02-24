@@ -9,7 +9,7 @@ int input()
 int find_fibo(int n)
 {
   int n1=0,n2=1,fibo,i;
-  for(i=0;i<n-1;++i)
+  for(i=1;i<n;i++)
     {
       fibo=n1+n2;
       n1=n2;
